@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open("C:\\Users\\HP\\Documents\\GitHub\\FULL-STACK-B-8-Wed-Thru-Fri\\predictive_maintenance_model.pkl", "rb") as f:
+with open(r"C:\\Users\\GA GROUP\\Documents\\GitHub\\Fullstack-AI-BOOTCAMP-B-10\\Week18\\predictive_maintenance_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Initialize FastAPI app
