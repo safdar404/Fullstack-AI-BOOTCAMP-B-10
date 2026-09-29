@@ -1,21 +1,25 @@
 # Python Full Stack with AI — Assessment Projects
 
-[![Live Prediction Studio](https://img.shields.io/badge/Live_Prediction_Studio-Open-e7be5c?style=for-the-badge)](https://prediction-api-dashboard-hub.neat-grove-8624.chatgpt.site)
+[![Functional Prediction Studio](https://img.shields.io/badge/Functional_Prediction_Studio-Open-e7be5c?style=for-the-badge)](https://safdar404.github.io/prediction-studio/)
 [![Python](https://img.shields.io/badge/Python-Data_%26_AI-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 
 Coursework and final-assessment implementations from a Python Full Stack with AI program. The repository demonstrates data preparation, exploratory analysis, machine learning, neural-network forecasting, model evaluation, APIs and user-facing prediction dashboards.
 
-## Live project hub
+## Functional Prediction Studio
 
-The [Prediction API & Dashboard Hub](https://prediction-api-dashboard-hub.neat-grove-8624.chatgpt.site) presents four separate workflows:
+[Open the working dashboard](https://safdar404.github.io/prediction-studio/) · [Inspect its source](./prediction-studio/index.html)
 
-| Project | Problem type | Typical methods | Output |
-|---|---|---|---|
-| Heart disease assessment | Classification | Pandas preprocessing, train/test split, scikit-learn classifier and probability | Risk class and confidence |
-| Hospital capacity analysis | Regression | Data cleaning, feature selection, regression and error metrics | Capacity or demand estimate |
-| Healthcare stock forecasting | Time series | Sequence preparation and TensorFlow/Keras recurrent network | Forecast curve and model summary |
-| FDA device forecasting | Time series | Historical aggregation, supervised sequences and forecasting | Forward projection and trend view |
+The browser-based hub accepts user-supplied CSV files and performs four transparent workflows. It includes sample templates, row-level validation, hover values on charts, metrics, analyzed-record tables, and CSV export. Data remains in the visitor's browser.
+
+| Workflow | Operational output |
+|---|---|
+| Heart model audit | Confusion counts, sensitivity, specificity, precision, accuracy from labeled model results |
+| Hospital capacity | Occupancy, pressure days, observed net flow and a 7-day planning estimate |
+| Healthcare stock | Reorder points, days of cover and suggested replenishment quantity |
+| Device event trends | Monthly reported-event counts, severity and device coverage |
+
+The previous [Prediction API & Dashboard Hub](https://prediction-api-dashboard-hub.neat-grove-8624.chatgpt.site/) remains a separate deployment. This repository does not contain its Site source or deployment credentials. The new hub uses transparent calculations and uploaded data; it does not claim a trained clinical model, regulatory prediction, or direct integration with hospital systems.
 
 ## Learning objectives
 
